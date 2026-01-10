@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Travel Recommendations</title>
+  <link rel="stylesheet" href="travelRecommendation.css">
+</head>
+<body>
+
+  <!-- Navigation Bar -->
+  <nav>
+    <ul style="list-style: none; padding: 0; display: flex; gap: 20px;">
+      <li><a href="travelRecommendation.html">Home</a></li>
+      <li><a href="aboutUs.html">About Us</a></li>
+      <li><a href="contactUs.html">Contact Us</a></li>
+    </ul>
+
+    <!-- Search Form -->
+    <form id="searchForm">
+  <input 
+    id="searchInput"
+    type="text"
+    placeholder="Search..."
+    required
+  >
+  <button type="submit">Search</button>
+  <button type="reset">Reset</button>
+</form>
+
+<div id="results"></div>
+
+  </nav>
+
+  <h1>TRAVEL DESTINATION DREAMS</h1>
+  <p>A vacation finding website where you can discover amazing travel destinations around the world.</p>
+    <img 
+    src="Images/beach.jpg" 
+    alt="Beautiful white sandy beach with teal, blue water. Flip flops, a sun hat, and a seashell welcome the viewer."
+    width="500"
+    >
+
+  <div id="results"></div>
+
+  <script src="travelRecommendation.js"></script>
+</body>
+</html>

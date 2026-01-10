@@ -1,0 +1,181 @@
+/* =========================
+   HOMEPAGE CONTENT
+========================= */
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 0;
+  background-color: #f4f7fb;
+  color: #333;
+}
+
+h1 {
+  text-align: center;
+  margin-top: 40px;
+}
+
+p {
+  text-align: center;
+  max-width: 600px;
+  margin: 10px auto;
+}
+
+img {
+  display: block;
+  margin: 20px auto;
+  border-radius: 10px;
+}
+
+
+/* =========================
+   NAV (ALL PAGES)
+========================= */
+nav {
+  background-color: #1e90ff;
+  padding: 15px 30px;
+}
+
+nav a {
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+  margin-right: 15px;
+}
+
+nav a:hover {
+  text-decoration: underline;
+}
+
+
+
+/* =========================
+   SEARCH FORM
+========================= */
+form {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+}
+
+input[type="text"] {
+  padding: 8px 10px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  width: 200px;
+}
+
+button {
+  padding: 8px 14px;
+  border: none;
+  border-radius: 5px;
+  background-color: white;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #e6e6e6;
+}
+
+
+/* Main content */
+img {
+  margin-top: 15px;
+  border-radius: 8px;
+}
+
+/* =========================
+   SEARCH RESULTS
+========================= */
+#results {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 20px;
+  padding: 30px;
+}
+
+#results h2 {
+  grid-column: 1 / -1;
+  text-align: center;
+}
+
+#results h3 {
+  margin-top: 0;
+}
+
+/* Individual result card */
+#results > div,
+#results h3,
+#results img,
+#results p {
+  background-color: white;
+  padding: 15px;
+  border-radius: 12px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.08);
+}
+
+.card {
+  background-color: white;
+  border-radius: 12px;
+  padding: 15px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.08);
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+.card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.12);
+}
+
+/* =========================
+   ABOUT US PAGE
+========================= */
+main {
+  max-width: 900px;
+  margin: 40px auto;
+  padding: 0 20px;
+}
+
+main h1 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+main h2 {
+  text-align: center;
+  font-weight: normal;
+  color: #555;
+  margin-bottom: 40px;
+}
+
+/* =========================
+   TEAM SECTION
+========================= */
+main h3 {
+  margin-top: 40px;
+  text-align: center;
+}
+
+main h4 {
+  margin-top: 30px;
+  margin-bottom: 5px;
+  font-size: 20px;
+}
+
+main p {
+  line-height: 1.6;
+  margin-bottom: 10px;
+}
+
+/* Team images */
+main img {
+  width: 180px;
+  border-radius: 12px;
+  display: block;
+  margin: 10px auto 30px auto;
+
+}
+
+main h4:not(:first-of-type) {
+  border-top: 1px solid #ddd;
+  padding-top: 20px;
+}
+
